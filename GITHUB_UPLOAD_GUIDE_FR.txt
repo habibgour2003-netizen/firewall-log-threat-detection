@@ -1,0 +1,25 @@
+METTRE LE PROJET SUR GITHUB — GUIDE RAPIDE
+
+1. Connecte-toi sur https://github.com/new
+2. Repository name : firewall-log-threat-detection
+3. Description : Rule-based firewall log detection lab with Python, SQLite and Streamlit; validated on synthetic data.
+4. Visibility : Public (si tu es d’accord pour rendre le code accessible)
+5. NE PAS cocher « Add a README » (le projet contient déjà un README).
+6. Clique sur Create repository.
+7. Dans le nouveau dépôt : Add file -> Upload files, puis dépose tout le contenu du dossier (y compris src, tests, data, docs et les fichiers .py, README.md, requirements.txt, queries.sql).
+   ATTENTION : l’interface web peut ignorer certains fichiers cachés (.gitignore). Vérifie ensuite sa présence. Une alternative plus fiable est GitHub Desktop : File -> Add local repository / Create from existing folder, puis Publish repository.
+8. Termine par « Commit changes ».
+9. Vérifie que les images s’affichent dans README.md, et que les fichiers src/*.py et tests/*.py sont présents.
+10. Vérifie qu'aucun mot de passe, log de société ou fichier .db privé n’a été publié.
+
+NE PAS AJOUTER : .venv, fichiers .db, clés API, credentials ou logs internes.
+
+Lien à insérer sur LinkedIn/CV après publication :
+https://github.com/TON_IDENTIFIANT/firewall-log-threat-detection
+
+Texte CV :
+Analyse de logs pare-feu & détection de menaces | Python, Pandas, SQLite, Streamlit (2026)
+- Pipeline ETL, stockage SQLite et visualisation de logs via dashboard Streamlit.
+- Règles de détection heuristiques (scans de ports, pics de connexions refusées), évaluées sur scénarios synthétiques ; 6 tests automatisés validés.
+
+ATTENTION : ne présente pas les données de simulation comme de vrais incidents.
