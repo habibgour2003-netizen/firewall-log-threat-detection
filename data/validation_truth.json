@@ -1,0 +1,17 @@
+[
+  {
+    "src_ip": "203.0.113.70",
+    "alert_type": "POSSIBLE_PORT_SCAN",
+    "scenario": "fast port scan: 15 denied ports in 5 min"
+  },
+  {
+    "src_ip": "198.51.100.70",
+    "alert_type": "DENY_BURST",
+    "scenario": "50 denied connections in 5 min"
+  },
+  {
+    "src_ip": "203.0.113.80",
+    "alert_type": "POSSIBLE_PORT_SCAN",
+    "scenario": "slow scan: 10 denied ports in each of two 5-min buckets (known miss)"
+  }
+]

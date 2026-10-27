@@ -1,0 +1,12 @@
+{
+  "events": 540,
+  "allowed": 375,
+  "denied": 165,
+  "unique_sources": 7,
+  "alerts": 2,
+  "alert_counts": {
+    "POSSIBLE_PORT_SCAN": 1,
+    "DENY_BURST": 1
+  },
+  "note": "Detections are heuristic indicators, not confirmed compromises."
+}

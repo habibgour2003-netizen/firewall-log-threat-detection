@@ -1,0 +1,25 @@
+{
+  "true_positives": 2,
+  "false_positives": 0,
+  "false_negatives": 1,
+  "recall_on_synthetic_cases": 0.667,
+  "precision_on_synthetic_cases": 1.0,
+  "detected_cases": [
+    {
+      "src_ip": "198.51.100.70",
+      "alert_type": "DENY_BURST"
+    },
+    {
+      "src_ip": "203.0.113.70",
+      "alert_type": "POSSIBLE_PORT_SCAN"
+    }
+  ],
+  "missed_cases": [
+    {
+      "src_ip": "203.0.113.80",
+      "alert_type": "POSSIBLE_PORT_SCAN"
+    }
+  ],
+  "unexpected_alerts": [],
+  "disclaimer": "Synthetic scenario-level assessment only; these are not production performance metrics."
+}
